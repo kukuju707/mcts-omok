@@ -48,8 +48,9 @@ Python으로 Monte Carlo Tree Search(MCTS) 알고리즘을 구현하여 오목 �
 3.최근 수에는 빨간 테두리가 표시됩니다.
 
 ## 프로젝트 구조
-
+'''
 mcts-omok/
 ├── main.py           # MCTS 기반 오목 AI 메인 코드
 ├── README.md         # 프로젝트 설명 문서
 └── screenshot.png    # 실행 화면 캡처
+'''
