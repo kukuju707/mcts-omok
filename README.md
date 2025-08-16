@@ -18,7 +18,8 @@ Python으로 Monte Carlo Tree Search(MCTS) 알고리즘을 구현하여 오목 �
 
 ### 1. MCTS (Monte Carlo Tree Search)
 - 확률적 시뮬레이션 기반 수 읽기
-- 탐색 깊이 제한 후 랜덤 시뮬레이션
+- 후보를 국소 반경으로 한정해 효율을 높임
+- rollouts와 CPUCT로 난이도를 조절
 
 ### 2. 도메인 규칙 기반 휴리스틱
 - 즉승 수(Immediate Win) 찾기
@@ -54,5 +55,6 @@ mcts-omok/
 ├── README.md         # 프로젝트 설명 문서
 └── screenshot.png    # 실행 화면 캡처
 ```
+
 
 
